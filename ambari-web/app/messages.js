@@ -18,9 +18,9 @@
 
 Em.I18n.translations = {
 
-  'app.name':'Ambari',
-  'app.name.subtitle':'Ambari - {0}',
-  'app.name.subtitle.experimental':'Ambari Experimental',
+  'app.name':'曼威科技', /*Ambari*/
+  'app.name.subtitle':'曼威科技 - {0}', /* Ambari - {0} */
+  'app.name.subtitle.experimental':'曼威信息科技（上海）有限公司', /*Ambari Experimental*/
   'app.reloadPopup.link': 'Reload Page',
   'app.reloadPopup.text': 'Trying to connect to server...',
   'app.reloadPopup.noClusterName.text': 'Failed to retrieve cluster name, trying to reload...',
@@ -2884,8 +2884,8 @@ Em.I18n.translations = {
     }
   },
 
-  'dashboard.services':'Services',
-  'dashboard.services.hosts':'Hosts',
+  'dashboard.services':'服务', /*Services*/
+  'dashboard.services.hosts':'主机', /*Hosts*/
   'dashboard.services.uptime':'{0}',
   'dashboard.services.summary.slaves.live': 'Live',
   'dashboard.services.hdfs.summary':'{0} of {1} nodes live, {2}% capacity used',
@@ -3151,13 +3151,13 @@ Em.I18n.translations = {
   'restart.service.all.affected': 'Restart All Affected',
   'restart.service.rest.context': 'Restart {0}s',
 
-  'menu.item.dashboard':'Dashboard',
-  'menu.item.services':'Services',
-  'menu.item.hosts':'Hosts',
-  'menu.item.admin':'Admin',
-  'menu.item.alerts': 'Alerts',
+  'menu.item.dashboard':'控制面板', /*Dashboard*/
+  'menu.item.services':'服务', /*Services*/
+  'menu.item.hosts':'主机',/*Hosts*/
+  'menu.item.admin':'管理员',/*Admin*/
+  'menu.item.alerts': '警告',/*Alerts*/
   'menu.item.views':'<i class="glyphicon glyphicon-th"></i>',
-  'menu.item.views.noViews':'No Views',
+  'menu.item.views.noViews':'',/*No Views*/
 
   'bulkOperation.loading': 'Loading...',
   'jobs.nothingToShow': 'No jobs to display',
