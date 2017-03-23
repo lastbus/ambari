@@ -105,7 +105,7 @@
         <configuration>
           <name>ambari-metrics-collector</name>
           <copyright>Copyright © 2015 MIW 版权所有 沪ICP备15041071号</copyright>
-          <group>Development</group>
+          <group>ManWei</group>
           <description>Maven Recipe: RPM Package.</description>
           <autoRequires>false</autoRequires>
           <requires>

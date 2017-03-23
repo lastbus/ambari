@@ -41,8 +41,8 @@
     <!--TODO change to HDP URL-->
     <hbase.tar>http://10.99.2.107/ambari/dependency/hbase-1.1.2.2.5.3.0-37.tar.gz</hbase.tar>
     <hbase.folder>hbase-1.1.2.2.5.3.0-37</hbase.folder>
-    <hadoop.tar>http://private-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.3.4.0-3347/tars/hadoop-2.7.1.2.3.4.0-3347.tar.gz</hadoop.tar>
-    <hadoop.folder>hadoop-2.7.1.2.3.4.0-3347</hadoop.folder>
+    <hadoop.tar>http://10.99.2.107/ambari/dependency/hadoop-2.7.3.2.5.3.0-37.tar.gz</hadoop.tar>
+    <hadoop.folder>hadoop-2.7.3.2.5.3.0-37</hadoop.folder>
     <hbase.winpkg.zip>https://msibuilds.blob.core.windows.net/hdp/2.x/2.2.4.2/2/hbase-0.98.4.2.2.4.2-0002-hadoop2.winpkg.zip</hbase.winpkg.zip>
     <hbase.winpkg.folder>hbase-0.98.4.2.2.4.2-0002-hadoop2</hbase.winpkg.folder>
     <hadoop.winpkg.zip>https://msibuilds.blob.core.windows.net/hdp/2.x/2.2.4.2/2/hadoop-2.6.0.2.2.4.2-0002.winpkg.zip</hadoop.winpkg.zip>
