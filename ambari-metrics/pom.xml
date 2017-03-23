@@ -49,8 +49,8 @@
     <hadoop.winpkg.folder>hadoop-2.6.0.2.2.4.2-0002</hadoop.winpkg.folder>
     <grafana.folder>grafana-2.6.0</grafana.folder>
     <grafana.tar>http://10.99.2.107/ambari/dependency/grafana-2.6.0.linux-x64.tar.gz</grafana.tar>
-    <phoenix.tar>http://s3.amazonaws.com/public-repo-1.hortonworks.com/HDP/centos6/2.x/updates/2.5.3.0/tars/phoenix-4.7.0.2.5.3.0-37.tar.gz</phoenix.tar>
-    <phoenix.folder>4.7.0.2.5.3.0-37</phoenix.folder>
+    <phoenix.tar>http://10.99.2.107/ambari/dependency/phoenix-4.7.0.2.5.3.0-37.tar.gz</phoenix.tar>
+    <phoenix.folder>phoenix-4.7.0.2.5.3.0-37</phoenix.folder>
     <resmonitor.install.dir>
       /usr/lib/python2.6/site-packages/resource_monitoring
     </resmonitor.install.dir>
