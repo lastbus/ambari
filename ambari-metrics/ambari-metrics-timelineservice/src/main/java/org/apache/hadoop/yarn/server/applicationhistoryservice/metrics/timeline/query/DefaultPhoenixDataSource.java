@@ -21,6 +21,7 @@ package org.apache.hadoop.yarn.server.applicationhistoryservice.metrics.timeline
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
 import org.apache.hadoop.hbase.client.HBaseAdmin;
 
@@ -84,6 +85,15 @@ public class DefaultPhoenixDataSource implements PhoenixConnectionProvider {
       LOG.warn("Unable to connect to HBase store using Phoenix.", e);
 
       throw e;
+    }
+  }
+
+  public static void main(String args[]) {
+    DefaultPhoenixDataSource defaultPhoenixDataSource = new DefaultPhoenixDataSource(HBaseConfiguration.create());
+    try {
+      Connection conn = defaultPhoenixDataSource.getConnection();
+    } catch (SQLException e) {
+      e.printStackTrace();
     }
   }
 
