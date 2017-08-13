@@ -16,8 +16,11 @@
 * limitations under the License.
 }}
 
+<style type="text/css">
+  body {background: url("/img/login.png"); background-size:cover;}
+</style>
 {{#unless isServerClientVersionMismatch}}
-<div class="well login col-md-4 col-md-offset-4 col-sm-offset-4">
+<div class="well well-lg login col-md-4 col-md-offset-4 col-sm-offset-4">
   <h2>{{t login.header}}</h2>
   {{#if errorMessage}}
   <div class="alert alert-danger">
